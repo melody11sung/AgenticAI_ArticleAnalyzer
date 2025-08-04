@@ -25,13 +25,16 @@ https://discovered-duck-af0.notion.site/Task-2-Automated-Research-Paper-Analysis
 
 
 ## Installation
-1. clone the git
-2. (Optional) create a virtual environment
+1. Clone the git
+2. (Optional) Create a virtual environment
    - python -m venv venv
    - source venv/bin/activate  # or venv\Scripts\activate on Windows
-3. install dependencies
+3. Install dependencies
    - pip install -r requirements.txt
-4. run the file
+4. Add OpenAI API key
+   - make .env file and add key
+   - OPENAI_API_KEY=your_key
+4. Run the file
    - python app/main.py
-   - it will run the test articles stored in /docs.
+   - It will run the test articles stored in /docs.
 
